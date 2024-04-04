@@ -1,0 +1,24 @@
+
+### Put key
+PUT http://localhost:{{port}}/key-value
+Content-Type: application/json
+
+{
+  "key": "key",
+  "value": "value"
+}
+
+### Put key with ttl
+PUT http://localhost:{{port}}/key-value
+Content-Type: application/json
+
+{
+  "key": "key-ttl",
+  "value": "value",
+  "ttl": 300
+}
+
+### Retrieve key
+GET http://localhost:{{port}}/key-value?key=key
+### Retrieve key view
+GET http://localhost:{{port}}/key-value/view?key=key

@@ -1,0 +1,69 @@
+
+### Put key
+PUT http://localhost:8081/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node1",
+  "value": "node1"
+}
+
+
+### Put key
+PUT http://localhost:8082/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node2",
+  "value": "node2"
+}
+
+
+
+### Put key
+PUT http://localhost:8083/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node3",
+  "value": "node3"
+}
+
+### Put key
+PUT http://localhost:8083/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node4",
+  "value": "node4"
+}
+
+
+### Put key
+PUT http://localhost:8083/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node5",
+  "value": "node5"
+}
+
+
+### Put key
+PUT http://localhost:8083/key-value
+Content-Type: application/json
+
+{
+  "key": "key-node6",
+  "value": "node6"
+}
+
+### Put key
+PUT http://localhost:8083/key-value
+Content-Type: application/json
+
+{
+  "key": "king",
+  "value": "long-live-the-king",
+  "ttl": 10000
+}

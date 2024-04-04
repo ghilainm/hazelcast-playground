@@ -1,0 +1,11 @@
+version: '3'
+services:
+  management-center:
+    image: hazelcast/management-center:latest
+    ports:
+      - "8080:8080"
+    environment:
+      MC_CLUSTER_MEMBERS: "172.17.0.1:5701" # Update with your Hazelcast cluster members
+    user: "1001:1001"
+    volumes:
+      - ./hz-mgt-center/data:/data
