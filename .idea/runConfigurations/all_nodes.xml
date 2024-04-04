@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="all-nodes" type="CompoundRunConfigurationType">
+    <toRun name="hazelcast-management-center" type="docker-deploy" />
+    <toRun name="hz-node-1" type="SpringBootApplicationConfigurationType" />
+    <toRun name="hz-node-2" type="SpringBootApplicationConfigurationType" />
+    <toRun name="hz-node-3" type="SpringBootApplicationConfigurationType" />
+    <toRun name="hz-node-4" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
